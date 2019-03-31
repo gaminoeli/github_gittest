@@ -7,25 +7,25 @@
 #include<unistd.h>
 
 using namespace std;
-const string g_name = "test2.c";
 namespace n_foo
 {
     class Foo
 
     {
         public:
-            Foo();  
+            Foo();
             explicit Foo (const string& name);
             ~Foo();
         protected:
             void showInfo (void) const;
         private:
             string name_;
+            int i;
     };
 };
 
 int main()
 {
-    
+
     return 0;
 }
