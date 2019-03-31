@@ -8,6 +8,7 @@
 
 using namespace std;
 const string g_name = "test2.c";
+char * const word = NULL;
 namespace n_foo
 {
     class Foo
